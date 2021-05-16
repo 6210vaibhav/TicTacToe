@@ -34,18 +34,6 @@ public class TicTacToe {
   	            }
   	            System.out.println();
   	        }
-  	    }
-  	 public static void choose() {
-  	        Scanner s = new Scanner(System.in);
-  	        System.out.println("Choose from X or O");
-  	        String game = s.next();
-  	        char player = 0;
-  	        char computer;
-  	        if (player == 'X') {
-  	            computer = 'O';
-  	        } else {
-  	            computer = 'X';
-  	        }
-  	    }
+	 }
 	    
 }
